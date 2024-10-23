@@ -15,14 +15,18 @@ public class DrawStars {
 		
 		this.printAsterisk(number);
 		
+		if(this.isEven(number) && this.isGreaterThanZero(number)) {
+			this.printAsterisk(number);
+		} else {
+			System.out.println("El numero no cumple la condicion");
+		}
+		
 	}
 	
 	private void printAsterisk(int number) {
 		for(int i = 1 ; i <= number ; i++) {
-			for(int j = 1 ; j <= i ; j++) {
+			
 			System.out.println("* ");
-			}
-			System.out.println();
 		}
 	}
 	
