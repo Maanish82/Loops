@@ -6,9 +6,11 @@ public class Start {
 		
 		System.out.println("Start program");
 		
-		Loop loop = new Loop();
-		loop.init();
+//		Loop loop = new Loop();
+//		loop.init();
 		
+		DrawStars drawStars = new DrawStars();
+		drawStars.init();
 		
 		
 		System.out.println("End Program");

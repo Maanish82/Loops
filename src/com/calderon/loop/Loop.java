@@ -7,86 +7,29 @@ public class Loop {
 	public void init() {
 		//loopWhile();
 		
-
+		//loopDoWhile();
+		loopFor();
 		
+	}
+	
+	private void loopFor() {
+		int i,j,k;
 		
+		i=j=k=0;
 		
 		
+		for(i = 0; i < 10; i++) {
+			System.out.println("Dentro del bucle 1: " + i);
+			
+		}
 		
+		for (int z = 10; z > 0 ; z--) {
+			System.out.println("Dentro del bucle 2 " + z);
+		}
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		loopDoWhile();
-		
+		for(j = 0 , k = 20 ; j < 10 && k > 0; k = k- 2) {
+			System.out.println("Dentro del bucle 3 " + j + " , " + k);
+		}
 	}
 	
 	
