@@ -9,9 +9,13 @@ public class Start {
 //		Loop loop = new Loop();
 //		loop.init();
 		
-		DrawStars drawStars = new DrawStars();
-		drawStars.init();
+//		DrawStars drawStars = new DrawStars();
+//		drawStars.init();
 		
+//		DrawSquare drawSquare = new DrawSquare();
+//		drawSquare.init();
+        DrawRectangle drawRectangle = new DrawRectangle();
+        drawRectangle.init();
 		
 		System.out.println("End Program");
 		
